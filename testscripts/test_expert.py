@@ -55,7 +55,7 @@ class TestExpert(object):
                 assert False
 
     @allure.feature('专家频道')
-    @allure.story('专家频道内容')
+    @allure.story('专家频道')
     class TestExpertGuid(object):
 
         @allure.testcase("用例名：专家频道首页推荐专家")
