@@ -54,7 +54,6 @@ class TestExpert(object):
             except Exception:
                 assert False
 
-    @allure.feature('专家频道')
     @allure.story('专家频道')
     class TestExpertGuid(object):
 
