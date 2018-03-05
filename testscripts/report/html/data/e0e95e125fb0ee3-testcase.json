@@ -1,0 +1,77 @@
+{
+  "uid" : "e0e95e125fb0ee3",
+  "name" : "TestExpert.TestExpertGuid.test_create_label",
+  "title" : "Test create label",
+  "time" : {
+    "start" : 1519972121615,
+    "stop" : 1519972121670,
+    "duration" : 55
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n            用例描述：用户在申请成为专家时自定义分类\n            请求方法：post\n            ",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等"
+  },
+  "suite" : {
+    "uid" : "526371ebbe0bf284",
+    "name" : "testscripts.test_expert",
+    "title" : "Test expert"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "用例参数",
+    "source" : "ada8ac44-3f17-41b1-8cb2-e14807b10c16-attachment.txt",
+    "type" : "text/plain",
+    "size" : 94,
+    "uid" : "b7e4353b32a42f5d"
+  } ],
+  "issues" : [ {
+    "name" : "BUG号：123",
+    "url" : "BUG号：123"
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "host",
+    "value" : "fireln"
+  }, {
+    "name" : "feature",
+    "value" : "专家频道"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "testscripts.test_expert"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "专家引导"
+  }, {
+    "name" : "testId",
+    "value" : "用例名：测试字符串相等"
+  }, {
+    "name" : "issue",
+    "value" : "BUG号：123"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "thread",
+    "value" : "5356-MainThread"
+  } ],
+  "parameters" : [ ]
+}

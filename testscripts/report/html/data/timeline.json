@@ -1,0 +1,42 @@
+{
+  "hosts" : [ {
+    "title" : "fireln",
+    "threads" : [ {
+      "title" : "3056-MainThread",
+      "testCases" : [ {
+        "uid" : "c67913102dc551",
+        "name" : "TestExpert.TestExpertGuid.test_all_label",
+        "title" : "Test all label",
+        "time" : {
+          "start" : 1520235605377,
+          "stop" : 1520235605722,
+          "duration" : 345
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "73f65fba01712185",
+        "name" : "TestExpert.TestExpertGuid.test_create_label",
+        "title" : "Test create label",
+        "time" : {
+          "start" : 1520235605724,
+          "stop" : 1520235605862,
+          "duration" : 138
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "84d5aeecd76f39b0",
+        "name" : "TestExpert.TestExpertGuid.test_all_label",
+        "title" : "Test all label",
+        "time" : {
+          "start" : 1520235605876,
+          "stop" : 1520235605904,
+          "duration" : 28
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

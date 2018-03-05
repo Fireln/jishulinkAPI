@@ -1,0 +1,65 @@
+{
+  "uid" : "f7c4a8c4208b2e5d",
+  "name" : "TestExpert.TestExpertGuid.test_create_label",
+  "title" : "Test create label",
+  "time" : {
+    "start" : 1519971988304,
+    "stop" : 1519971988360,
+    "duration" : 56
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\n            用例描述：用户在申请成为专家时自定义分类\n            请求方法：post\n            ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "93296164bb3adc58",
+    "name" : "testscripts.test_expert",
+    "title" : "Test expert"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "用例参数",
+    "source" : "12e88819-ad25-4470-814f-15cf503ee402-attachment.txt",
+    "type" : "text/plain",
+    "size" : 96,
+    "uid" : "e4c453f18e2965cc"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "16256-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "fireln"
+  }, {
+    "name" : "feature",
+    "value" : "专家频道"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "testscripts.test_expert"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "专家引导"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,39 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1520236994288" stop="1520236994584">
+  <name>testscripts.test_expert</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1520236994288" status="passed" stop="1520236994496">
+      <name>TestExpert.TestExpertGuid.test_all_label</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="用例名：引导页5各分类标签"/>
+        <label name="story" value="专家引导"/>
+        <label name="feature" value="专家频道"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21116-MainThread"/>
+        <label name="host" value="fireln"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1520236994498" status="passed" stop="1520236994584">
+      <description>请求方法：post</description>
+      <name>TestExpert.TestExpertGuid.test_create_label</name>
+      <attachments>
+        <attachment source="17dc9fd9-effb-4c91-a431-627f25765bac-attachment.txt" title="用例参数" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="testId" value="用例名：自定义分类"/>
+        <label name="story" value="专家引导"/>
+        <label name="feature" value="专家频道"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21116-MainThread"/>
+        <label name="host" value="fireln"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,0 +1,74 @@
+{
+  "uid" : "d5a70fcc04473e3e",
+  "name" : "TestExpertGuid.test_create_label",
+  "title" : "Test create label",
+  "time" : {
+    "start" : 1519966807299,
+    "stop" : 1519966807367,
+    "duration" : 68
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "自定义分类,然后删除",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "31fc88661c258bf0",
+    "name" : "testscripts.test_expert",
+    "title" : "Test expert"
+  },
+  "steps" : [ {
+    "name" : "自定义分类",
+    "title" : "自定义分类",
+    "time" : {
+      "start" : 1519966807302,
+      "stop" : 1519966807366,
+      "duration" : 64
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "4972-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "fireln"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "testscripts.test_expert"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "专家引导"
+  }, {
+    "name" : "story",
+    "value" : "story自定义分类"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

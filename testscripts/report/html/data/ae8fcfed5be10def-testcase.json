@@ -1,0 +1,71 @@
+{
+  "uid" : "ae8fcfed5be10def",
+  "name" : "TestExpert.TestExpertGuid.test_create_label",
+  "title" : "Test create label",
+  "time" : {
+    "start" : 1519973320408,
+    "stop" : 1519973320462,
+    "duration" : 54
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "请求方法：post",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等"
+  },
+  "suite" : {
+    "uid" : "3761698d5b5f49ab",
+    "name" : "testscripts.test_expert",
+    "title" : "Test expert"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "用例参数",
+    "source" : "1bb951c8-9566-4753-a61b-b06afdb9f014-attachment.txt",
+    "type" : "text/plain",
+    "size" : 181,
+    "uid" : "443e73436cce6aaf"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "6768-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "fireln"
+  }, {
+    "name" : "feature",
+    "value" : "专家频道"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "testscripts.test_expert"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "专家引导"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "用例名：测试字符串相等"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,74 @@
+{
+  "uid" : "f8d478e75e416ec2",
+  "name" : "TestExpert.TestExpertGuid.test_all_label",
+  "title" : "Test all label",
+  "time" : {
+    "start" : 1519971686455,
+    "stop" : 1519971686647,
+    "duration" : 192
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "专家频道5大分类",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c99788b3d8b4751c",
+    "name" : "testscripts.test_expert",
+    "title" : "Test expert"
+  },
+  "steps" : [ {
+    "name" : "地址：http://t.jishulink.com:8080/jishulink_test/tpoint/aspect/expertChannel/flat",
+    "title" : "地址：http://t.jishulink.com:8080/jishulink_test/tpoint/aspect/expertChannel/flat",
+    "time" : {
+      "start" : 1519971686459,
+      "stop" : 1519971686646,
+      "duration" : 187
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fireln"
+  }, {
+    "name" : "feature",
+    "value" : "专家频道"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "testscripts.test_expert"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "专家引导"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "22616-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

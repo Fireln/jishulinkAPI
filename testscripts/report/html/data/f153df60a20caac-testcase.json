@@ -1,0 +1,77 @@
+{
+  "uid" : "f153df60a20caac",
+  "name" : "TestExpert.TestExpertGuid.test_all_label",
+  "title" : "Test all label",
+  "time" : {
+    "start" : 1519970029671,
+    "stop" : 1519970029928,
+    "duration" : 257
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "self = <testscripts.test_expert.TestExpert.TestExpertGuid object at 0x0692E0B0>\n\n    def test_all_label(self):\n        \"\"\"专家频道5大分类\"\"\"\n        url = data.get(keys.expert_label).get('url')\n        with allure.step('地址：{}'.format(url)):\n            try:\n                res = requests.get(url)\n                response = res.json()\n>               assert response.get(\"rc\") == 1\nE               AssertionError: assert 0 == 1\nE                +  where 0 = <built-in method get of dict object at 0x06935DF0>('rc')\nE                +    where <built-in method get of dict object at 0x06935DF0> = {'rc': 0, 'ret': [{'aspect': 'APPLICATION', 'aspectDesc': '学科&应用工程', 'tPointInfos': [{'approveStatus': 1, 'articleCoun...': ['PRODUCTION'], ...}, {'approveStatus': 1, 'articleCount': 0, 'aspect': 64, 'aspects': ['PRODUCTION'], ...}, ...]}]}.get\n\ntest_expert.py:26: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <testscripts.test_expert.TestExpert.TestExpertGuid object at 0x0692E0B0>\n\n    def test_all_label(self):\n        \"\"\"专家频道5大分类\"\"\"\n        url = data.get(keys.expert_label).get('url')\n        with allure.step('地址：{}'.format(url)):\n            try:\n                res = requests.get(url)\n                response = res.json()\n                assert response.get(\"rc\") == 1\n            except Exception:\n>               assert False\nE               assert False\n\ntest_expert.py:28: AssertionError"
+  },
+  "description" : {
+    "value" : "专家频道5大分类",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "30ff62157f278c66",
+    "name" : "testscripts.test_expert",
+    "title" : "Test expert"
+  },
+  "steps" : [ {
+    "name" : "地址：http://t.jishulink.com:8080/jishulink_test/tpoint/aspect/expertChannel/flat",
+    "title" : "地址：http://t.jishulink.com:8080/jishulink_test/tpoint/aspect/expertChannel/flat",
+    "time" : {
+      "start" : 1519970029676,
+      "stop" : 1519970029833,
+      "duration" : 157
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fireln"
+  }, {
+    "name" : "feature",
+    "value" : "专家频道"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "testscripts.test_expert"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "专家引导"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "9420-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

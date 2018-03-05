@@ -1,0 +1,77 @@
+{
+  "uid" : "f90975af52fbca32",
+  "name" : "TestExpert.TestExpertGuid.test_all_label",
+  "title" : "Test all label",
+  "time" : {
+    "start" : 1519973156954,
+    "stop" : 1519973157148,
+    "duration" : 194
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "用例名：进入专家引导首页",
+    "url" : "用例名：进入专家引导首页"
+  },
+  "suite" : {
+    "uid" : "7845a801baf762c0",
+    "name" : "testscripts.test_expert",
+    "title" : "Test expert"
+  },
+  "steps" : [ {
+    "name" : "地址：http://t.jishulink.com:8080/jishulink_test/tpoint/aspect/expertChannel/flat",
+    "title" : "地址：http://t.jishulink.com:8080/jishulink_test/tpoint/aspect/expertChannel/flat",
+    "time" : {
+      "start" : 1519973156958,
+      "stop" : 1519973157147,
+      "duration" : 189
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fireln"
+  }, {
+    "name" : "feature",
+    "value" : "专家频道"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "testscripts.test_expert"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "专家引导"
+  }, {
+    "name" : "testId",
+    "value" : "用例名：进入专家引导首页"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8616-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

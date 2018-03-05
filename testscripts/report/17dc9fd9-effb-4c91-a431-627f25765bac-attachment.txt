@@ -1,0 +1,1 @@
+{'data': {'userId': '577eecfc-1155-4d48-a90f-b990b21896e5', 'aspect': 'Application', 'name': '测试rZpQ'}, 'url': 'http://t.jishulink.com:8080/jishulink_test/tpoint/createOrUpdate/name'}

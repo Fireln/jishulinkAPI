@@ -1,0 +1,86 @@
+{
+  "uid" : "178e6e89a790c145",
+  "name" : "TestExpert.TestExpertGuid.test_create_label",
+  "title" : "Test create label",
+  "time" : {
+    "start" : 1519973157151,
+    "stop" : 1519973157225,
+    "duration" : 74
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "请求方法：post",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "用例名：测试字符串相等",
+    "url" : "用例名：测试字符串相等"
+  },
+  "suite" : {
+    "uid" : "7845a801baf762c0",
+    "name" : "testscripts.test_expert",
+    "title" : "Test expert"
+  },
+  "steps" : [ {
+    "name" : "地址：http://t.jishulink.com:8080/jishulink_test/tpoint/createOrUpdate/name",
+    "title" : "地址：http://t.jishulink.com:8080/jishulink_test/tpoint/createOrUpdate/name",
+    "time" : {
+      "start" : 1519973157154,
+      "stop" : 1519973157225,
+      "duration" : 71
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "用例参数",
+    "source" : "bb866bfe-bfe9-4d4e-8ec8-45af7c1d22bf-attachment.txt",
+    "type" : "text/plain",
+    "size" : 186,
+    "uid" : "43b21d767962e29d"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fireln"
+  }, {
+    "name" : "feature",
+    "value" : "专家频道"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-name",
+    "value" : "testscripts.test_expert"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "专家引导"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "8616-MainThread"
+  }, {
+    "name" : "testId",
+    "value" : "用例名：测试字符串相等"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}
