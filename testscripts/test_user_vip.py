@@ -9,13 +9,13 @@ import allure
 data = VipData.data
 
 
-class TestExpert(object):
+class TestUser(object):
     @allure.feature('用户vip')
     @allure.story('vip详情')
-    class TestExpertGuid(object):
+    class TestUserVip(object):
 
         @allure.testcase("用例名：获取vip信息")
-        def test_all_label(self):
+        def test_vip_info(self):
             api = data.get(keys.vip_info)
             url = api.get('url')
             params = api.get('data')

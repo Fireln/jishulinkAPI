@@ -7,3 +7,7 @@ class ExpertGuidKeys(object):
     expert_label = 'expert_label'
     create_label = 'create_label'
     commit = 'commit'
+    expert_true = 'expert_true'
+    expert_false = 'expert_false'
+    modify_label = 'modify_label'
+    expert_recommend = 'expert_recommend'
