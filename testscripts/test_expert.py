@@ -59,19 +59,24 @@ class TestExpertGuid(object):
             true = self.expert_true
             if true == 0:
                 self.expert_false
+            else:
+                assert False
+        else:
+            assert False
 
     @allure.step("申请成为专家")
     def commit(self):
-        api = keys.commit
+        api = data.get(keys.commit)
         try:
             res = requests.post(url=api.get('url'))
             responst = res.json()
             rc = responst.get('rc')
-            assert rc == 0
-            return rc
+            if rc == 0 or rc == 1:
+                assert True
+            else:
+                assert False
         except Exception:
             assert False
-            return False
 
     @allure.step("后台管理审核通过")
     def expert_true(self):
@@ -83,7 +88,6 @@ class TestExpertGuid(object):
             return responst.get('rc')
         except Exception:
             assert False
-            return False
 
     @allure.step("后台管理审核失败")
     def expert_false(self):
@@ -111,3 +115,8 @@ class TestExpertContent(object):
             assert response.get("rc") == 0
         except Exception:
             assert False
+
+
+if __name__ == '__main__':
+    test = TestExpertGuid()
+    test.commit()

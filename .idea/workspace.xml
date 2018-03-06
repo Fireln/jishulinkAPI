@@ -1,10 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8eafd42-384b-42d3-994b-022c87807666" name="Default" comment="完成专家入住功能">
+    <list default="true" id="c8eafd42-384b-42d3-994b-022c87807666" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" />
-      <change beforePath="$PROJECT_DIR$/testscripts/.pytest_cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/testscripts/.pytest_cache/v/cache/lastfailed" />
+      <change beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/css/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/10bed7ca-b205-4954-ac52-c7c59242313c-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/12c52edb375e8476-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/12e88819-ad25-4470-814f-15cf503ee402-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/14eb1551efbfc037-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/178e6e89a790c145-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/1bb951c8-9566-4753-a61b-b06afdb9f014-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/2175d040cff7688d-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/254b2ded7c63fd4a-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/290501b4-ab82-43e2-ac85-0ec4c52b0f35-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/3743af75882ab202-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/3c4592bc0440773a-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/3d8ab0f3-26ef-4417-a888-32a1b8ea587b-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/475b5f3c-3572-4706-a6ec-e3ec35fa1733-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/4fb1343b9ee82cd7-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/51361d31738afa85-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/52cd3d4c4d295d5-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/5644cd4daf1a5918-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/5dcd2d645c580c4f-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/620938eaf8d99716-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/64f67170ae67e4a2-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/6842bf1059b2733c-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/73f65fba01712185-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/79cd875af9b848f4-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/82419d6688ed2c9f-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/84d5aeecd76f39b0-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/889d67bec74a1b73-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/8bb9ed3172d96b6-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/8dc6e41706019f82-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/8e2a2b52f00b185d-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/9371f83d8a3d1c45-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/9da1223279e03ce8-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/a32051d96bb89516-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/a7598df9ce2bd93-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/ab3491c74a583931-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/ac7741b847f088c7-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/ada8ac44-3f17-41b1-8cb2-e14807b10c16-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/ae8fcfed5be10def-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/b8f456387015351e-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/bb866bfe-bfe9-4d4e-8ec8-45af7c1d22bf-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/behaviors.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/bfab047c3e02d0a7-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/c6112650cdb7b348-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/c67913102dc551-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/c9fa02de-0d37-4571-a147-7d3032069ca0-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/ce3207ad6b0d57f7-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/d0e27616d8dccd23-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/d229805972ab9da6-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/d5a70fcc04473e3e-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/db38324eaca8fa71-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/defects.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/dfa839f23f5e5c56-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/e0e95e125fb0ee3-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/eb1419fc060b6f60-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/ee6f2d4bcd292917-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/efc97ac4d418252-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/environment.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/f153df60a20caac-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/f5535c430875a2ae-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/f5e0bedef1d2bcb3-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/f77eb2666074220d-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/f7c4a8c4208b2e5d-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/f8d478e75e416ec2-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/f90975af52fbca32-testcase.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/graph.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/plugins.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/report.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/timeline.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/total.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/widgets.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/data/xunit.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/flash/clippy.swf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/img/allure-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/img/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/img/tests_passed.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/charts/charts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/charts/duration.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/charts/pie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/charts/severityMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/charts/timeline.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/controllers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/directives.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/filters.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/overview/widgets.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/pane/pane.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/pluginApi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/scrollfix/scrollfix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/services.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/table/table.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/testcase/list.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/testcase/provider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/testcase/statusSwitcher.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/js/testcase/testcase.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/behaviors/en.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/behaviors/ptbr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/behaviors/ru.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/behaviors/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/behaviors/tab.tpl.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/defects/en.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/defects/ptbr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/defects/ru.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/defects/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/defects/tab.tpl.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/environment/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/graph/en.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/graph/ptbr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/graph/ru.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/graph/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/graph/tab.tpl.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/timeline/en.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/timeline/ptbr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/timeline/ru.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/timeline/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/timeline/tab.tpl.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/total/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/xunit/en.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/xunit/ptbr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/xunit/ru.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/xunit/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/xunit/tab.tpl.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/xunit/testrun.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/plugins/xunit/testsuite.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/overview.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/overview/defects.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/overview/keyValue.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/overview/statistics.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/overview/total.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/table/table.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/testcase/attachment.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/testcase/list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/testcase/status-switcher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/testcase/testcase.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/templates/testcase/testcaseView.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/translations/en.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/translations/ptbr.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/translations/ru.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/vendor/filesize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/vendor/localstorageprovider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/vendor/messageformat/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/vendor/messageformat/ptbr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/vendor/messageformat/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/Sortable/1.2.0/Sortable.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/Sortable/1.2.0/ng-sortable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/angular-loading-bar/0.6.0/loading-bar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/angular-translate-interpolation-messageformat/0.1.2/angular-translate-interpolation-messageformat.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/angular-translate-loader-partial/2.6.0/angular-translate-loader-partial.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/angular-translate/2.6.0/angular-translate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/angular-ui-router/0.2.13/angular-ui-router.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/angularjs/1.2.26/angular-animate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/angularjs/1.2.26/angular.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/d3js/3.4.11/d3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/font-awesome/4.2.0/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/highlightjs/8.2-1/highlight.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/jquery/2.1.1/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testscripts/report/html/webjars/messageformat.js/0.1.4/messageformat.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/testscripts/test_expert.py" afterPath="$PROJECT_DIR$/testscripts/test_expert.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +178,25 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/jishulinktest$Unittests_in_test_expert_py.coverage" NAME="Unittests in test_expert.py Coverage Results" MODIFIED="1519954025804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testscripts" />
+    <SUITE FILE_PATH="coverage/jishulinktest$test_expert.coverage" NAME="test_expert Coverage Results" MODIFIED="1520299668912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testscripts" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="expert.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testdata/data/expert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="30" column="69" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="69" />
+            <state relative-caret-position="345">
+              <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -32,12 +205,24 @@
       <file leaf-file-name="test_expert.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testscripts/test_expert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+            <state relative-caret-position="351">
+              <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding>
                 <element signature="e#79#94#0" expanded="true" />
-                <element signature="e#2486#2726#0" expanded="false" />
+                <element signature="e#334#2833#0" expanded="false" />
+                <element signature="e#2593#2833#0" expanded="false" />
+                <element signature="e#2919#3348#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expert.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdata/keys/expert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,12 +253,12 @@
         <option value="$PROJECT_DIR$/testdata/keys/vip.py" />
         <option value="$PROJECT_DIR$/testdata/keys/vipkeys.py" />
         <option value="$PROJECT_DIR$/testdata/keys/userkeys.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/testdata/data/vipdata.py" />
         <option value="$PROJECT_DIR$/testscripts/report/test_user_vip.py" />
         <option value="$PROJECT_DIR$/testscripts/test_user_vip.py" />
         <option value="$PROJECT_DIR$/testdata/keys/expert.py" />
         <option value="$PROJECT_DIR$/testdata/data/expert.py" />
+        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/testscripts/test_expert.py" />
       </list>
     </option>
@@ -134,39 +319,6 @@
               <item name="jishulinktest" type="b2602c69:ProjectViewProjectNode" />
               <item name="jishulinktest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jishulinktest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jishulinktest" type="462c0819:PsiDirectoryNode" />
-              <item name="testdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jishulinktest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jishulinktest" type="462c0819:PsiDirectoryNode" />
-              <item name="testdata" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jishulinktest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jishulinktest" type="462c0819:PsiDirectoryNode" />
-              <item name="testdata" type="462c0819:PsiDirectoryNode" />
-              <item name="keys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jishulinktest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jishulinktest" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jishulinktest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jishulinktest" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jishulinktest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jishulinktest" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -201,7 +353,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test_expert">
+    <configuration name="test_expert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testscripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jishulinktest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testscripts/test_expert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -301,9 +472,13 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/testscripts/test_expert.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_expert.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_expert" />
+    </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_expert.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_expert" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_expert.py" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_expert.py" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_expert.py" />
@@ -360,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520241935077</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完成专家入住功能">
+      <created>1520298828690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520298828690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -380,17 +562,17 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38435754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38435754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47150838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5027933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28784648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -451,7 +633,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -548,7 +730,9 @@
           <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="e#79#94#0" expanded="true" />
-            <element signature="e#2486#2726#0" expanded="false" />
+            <element signature="e#334#2833#0" expanded="false" />
+            <element signature="e#2593#2833#0" expanded="false" />
+            <element signature="e#2919#3348#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,7 +761,9 @@
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#79#94#0" expanded="true" />
-            <element signature="e#2486#2726#0" expanded="false" />
+            <element signature="e#334#2833#0" expanded="false" />
+            <element signature="e#2593#2833#0" expanded="false" />
+            <element signature="e#2919#3348#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -645,7 +831,9 @@
           <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="e#79#94#0" expanded="true" />
-            <element signature="e#2486#2726#0" expanded="false" />
+            <element signature="e#334#2833#0" expanded="false" />
+            <element signature="e#2593#2833#0" expanded="false" />
+            <element signature="e#2919#3348#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -689,7 +877,9 @@
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#79#94#0" expanded="true" />
-            <element signature="e#2486#2726#0" expanded="false" />
+            <element signature="e#334#2833#0" expanded="false" />
+            <element signature="e#2593#2833#0" expanded="false" />
+            <element signature="e#2919#3348#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -733,18 +923,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testscripts/.pytest_cache/v/cache/lastfailed">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,14 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/keys/expert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -839,21 +1014,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testdata/data/expert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="69" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="69" />
+        <state relative-caret-position="345">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/keys/expert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testscripts/test_expert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        <state relative-caret-position="351">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="e#79#94#0" expanded="true" />
-            <element signature="e#2486#2726#0" expanded="false" />
+            <element signature="e#334#2833#0" expanded="false" />
+            <element signature="e#2593#2833#0" expanded="false" />
+            <element signature="e#2919#3348#0" expanded="false" />
           </folding>
         </state>
       </provider>
