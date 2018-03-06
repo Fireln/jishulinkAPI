@@ -1,4 +1,3 @@
 {
-  "testscripts/test_expert.py::TestExpert::()::TestExpertGuid::()::test_all_label": true,
-  "testscripts/test_expert.py::TestExpertGuid::()::test_become_expert": true
+  "testscripts/test_expert.py::TestExpert::()::TestExpertGuid::()::test_all_label": true
 }

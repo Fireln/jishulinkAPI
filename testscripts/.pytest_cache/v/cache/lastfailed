@@ -1,4 +1,3 @@
 {
-  "test_expert.py::TestExpert::()::TestExpertGuid::()::test_modify_label": true,
-  "test_expert.py::TestExpertGuid::()::test_become_expert": true
+  "test_expert.py::TestExpert::()::TestExpertGuid::()::test_modify_label": true
 }
