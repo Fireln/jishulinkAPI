@@ -5,10 +5,11 @@
 
 class CheckPoint(object):
     def check_rc(self, obj):
+        """检查RC码，返回list类型，第一位用作判断接口调用正确性，第二位是请求结果"""
         try:
             response = obj.json()
             rc = response.get('rc')
-            if rc == 0:
+            if rc == 1:
                 return True, response
             else:
                 return False, response
@@ -18,4 +19,4 @@ class CheckPoint(object):
 
 if __name__ == '__main__':
     test = CheckPoint()
-    print(test.check_rc({'rc': 0, 'ret': ['asd']}))
+    print(test.check_rc('asd'))
