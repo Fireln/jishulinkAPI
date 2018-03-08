@@ -30,8 +30,10 @@ def client(method, url=None, params=None, json=None, file=None, api=None):
 
 class MyRequest(object):
     """二次封装request"""
+
     class Url(object):
         """参数在url中的接口"""
+
         def get(self, api):
             return client(method='get', url=api.get('url'), api=api)
 
@@ -43,6 +45,7 @@ class MyRequest(object):
 
     class Params(object):
         """query类型参数入口"""
+
         def get(self, api):
             return client(method='get', url=api.get('url'), params=api.get('data'), api=api)
 
@@ -54,61 +57,22 @@ class MyRequest(object):
 
     class Json(object):
         """body类型参数入口"""
-        def get(self) -> object:
-            pass
 
-        def put(self):
-            pass
+        def get(self, api):
+            return client(method='get', url=api.get('url'), json=api.get('data'), api=api)
 
-        def post(self):
-            pass
+        def put(self, api):
+            return client(method='put', url=api.get('url'), json=api.get('data'), api=api)
+
+        def post(self, api):
+            return client(method='post', url=api.get('url'), json=api.get('data'), api=api)
 
     class File(object):
-        def get(self) -> object:
-            pass
+        def get(self, api):
+            return client(method='get', url=api.get('url'), file=api.get('data'), api=api)
 
-        def put(self):
-            pass
+        def put(self, api):
+            return client(method='put', url=api.get('url'), file=api.get('data'), api=api)
 
-        def post(self):
-            pass
-
-    class UrlParams(object):
-        def get(self) -> object:
-            pass
-
-        def put(self):
-            pass
-
-        def post(self):
-            pass
-
-    class UrlJson(object):
-        def get(self) -> object:
-            pass
-
-        def put(self):
-            pass
-
-        def post(self):
-            pass
-
-    class UrlFile(object):
-        def get(self) -> object:
-            pass
-
-        def put(self):
-            pass
-
-        def post(self):
-            pass
-
-    class UrlParamsJson(object):
-        def get(self) -> object:
-            pass
-
-        def put(self):
-            pass
-
-        def post(self):
-            pass
+        def post(self, api):
+            return client(method='post', url=api.get('url'), file=api.get('data'), api=api)

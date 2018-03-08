@@ -3,7 +3,7 @@
 # Created by Fireln on 2018/3/1
 
 class Main(object):
-    server = "http://t.jishulink.com:8080/jishulink_test"
+    server = "http://t.jishulink.com:8002/jishulink"
 
 
 class Dev(Main):

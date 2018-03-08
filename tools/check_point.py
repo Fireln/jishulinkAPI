@@ -9,7 +9,7 @@ class CheckPoint(object):
         try:
             response = obj.json()
             rc = response.get('rc')
-            if rc == 1:
+            if rc == 0:
                 return True, response
             else:
                 return False, response

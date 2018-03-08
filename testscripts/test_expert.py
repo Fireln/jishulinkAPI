@@ -5,17 +5,13 @@
 import requests
 from data.data import eve
 from data.data.expert_data import ExpertGuid, ExpertContent
-from tools.allure_assert import allure, AllureAssert
-from tools.check_point import CheckPoint
+import allure
 from data.keys.expert_keys import ExpertContentKeys, ExpertGuidKeys
 from tools.my_request import MyRequest
 
 my_request = MyRequest()
-
 data = ExpertGuid.data
 content_data = ExpertContent.data
-check = CheckPoint()
-allure_assert = AllureAssert()
 
 
 @allure.feature('专家频道')
