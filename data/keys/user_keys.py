@@ -4,7 +4,9 @@
 
 
 class User(object):
+    """vip"""
     register = "register"
     vip_info = "vip_info"
     user_profile = "user_profile"
     base_info = "base_info"
+

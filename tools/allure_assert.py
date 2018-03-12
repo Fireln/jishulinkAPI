@@ -13,13 +13,13 @@ class AllureAssert(object):
             if isinstance(res[1], dict):
                 allure.attach("参数", "{0}".format(api))
                 allure.attach("结果", "{0}".format(res[1]))
-                assert False
+                assert AssertionError
             else:
                 allure.attach("参数", "{0}".format(api))
                 allure.attach("结果", "{0}".format(res[1]))
-                assert False
+                assert AssertionError
 
     def request_error(self, api):
         allure.attach("参数", "{0}".format(api))
         allure.attach("结果", "请求失败或服务器超时")
-        assert False
+        assert AssertionError

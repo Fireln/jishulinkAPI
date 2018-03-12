@@ -8,12 +8,16 @@ class Main(object):
 
 class Dev(Main):
     user_id = "7515dec3-3668-4020-9777-9d5524bf89b9"
+    lotteryId = "0329aba0-ce77-4233-85b2-f16c5e564e05"
+    app_version = "4.2.0"
     pass
 
 
 class Release(Main):
     server = ''
     user_id = ''
+    lotteryId = "0329aba0-ce77-4233-85b2-f16c5e564e05"
+    app_version = "4.2.0"
 
 
 def get_eve(eve):
