@@ -1,3 +1,4 @@
 {
-  "test_expert.py::TestExpert::()::TestExpertGuid::()::test_modify_label": true
+  "test_expert.py::TestExpert::()::TestExpertGuid::()::test_modify_label": true,
+  "test_user.py::TestUserVip::()::test_three_mon_vip": true
 }

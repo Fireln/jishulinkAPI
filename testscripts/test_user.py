@@ -7,6 +7,7 @@ import allure
 from tools.my_request import MyRequest
 from tools.allure_assert import AllureAssert
 from tools.check_point import CheckPoint
+from tools import url
 import random
 import string
 import requests
@@ -41,7 +42,7 @@ class TestUserVip(object):
         api = vip_data.get(keys.user_profile)
         request.Url().get(api=api)
 
-    @allure.testcase("邀请注册获得VIP")
+    @allure.testcase("注册")
     def test_three_mon_vip(self):
         self.regiest()
 
@@ -54,23 +55,22 @@ class TestUserVip(object):
         if res.get('rc') != 0:
             return self.regiest()
 
-    @allure.step("三个人接收邀请")
-    def send(self):
-        pass
-
-    @allure.step("五个人接收邀请")
-    def send(self):
-        pass
-
-    @allure.step("十人接收邀请")
-    def send(self):
-        pass
-
-    @allure.step("检查VIP时间")
-    def send(self):
-        pass
+    @allure.testcase("领取奖励金")
+    def test_receive_award(self):
+        api = vip_data.get(keys.receive_award)
+        with requests.get(url=api.get('url')) as response:
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('rc') == 0:
+                    assert True
+                elif data.get('rc') == 1 and data.get('ret') == "仅在读工科生可参与该活动":
+                    assert True
+                else:
+                    assert False
+            else:
+                allure_assert.request_error(response.status_code, api)
 
 
 if __name__ == '__main__':
     t = TestUserVip()
-    t.test_open_center()
+    t.regiest()

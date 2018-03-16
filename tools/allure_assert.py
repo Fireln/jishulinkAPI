@@ -13,13 +13,12 @@ class AllureAssert(object):
             if isinstance(res[1], dict):
                 allure.attach("参数", "{0}".format(api))
                 allure.attach("结果", "{0}".format(res[1]))
-                assert AssertionError
+                assert False, "rc状态码不为0"
             else:
                 allure.attach("参数", "{0}".format(api))
                 allure.attach("结果", "{0}".format(res[1]))
-                assert AssertionError
+                assert False, "没有rc码返还，无法定位错误"
 
-    def request_error(self, api):
+    def request_error(self, status, api):
         allure.attach("参数", "{0}".format(api))
-        allure.attach("结果", "请求失败或服务器超时")
-        assert AssertionError
+        assert False, "接口调用失败，http状态码为{}".format(status)

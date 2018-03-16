@@ -18,7 +18,7 @@ class HomeData(object):
                 "password": "123456",
                 "name": "13783783183",
                 "device": "App",
-            }
+            },
         },
         home_keys.report_terminal_info: {
             'url': eve.server + '/user/' + eve.user_id + '/report_terminal_info?terminalType=IOS&version=' + eve.app_version,
@@ -27,7 +27,7 @@ class HomeData(object):
             'url': eve.server + '/ordertask/' + eve.user_id,
         },
         home_keys.latest_version: {
-            'url': eve.server + 'app_version/check/latest_version?type=1',
+            'url': eve.server + '/app_version/check/latest_version?type=1',
         }, home_keys.getUserGuideData: {
             'url': eve.server + '/newHome/getUserGuideData?userId=' + eve.user_id,
         }, home_keys.check_sign_status: {

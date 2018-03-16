@@ -9,7 +9,7 @@ check = CheckPoint()
 allure_assert = AllureAssert()
 
 
-def client(method, url=None, params=None, json=None, file=None, api=None):
+def client(method, url=None, params=None, json=None, file=None, api=None, data=None):
     """
     发起request请求接口
     :param method: 方法类型
@@ -20,12 +20,13 @@ def client(method, url=None, params=None, json=None, file=None, api=None):
     :param api: 失败时要写入测试报告的请求数据，包括url和参数
     :return: 返回dict类型的response数据，以后完善功能时可以做检查点
     """
-    try:
-        res = check.check_rc(requests.request(method, url=url, params=params, json=json, files=file))
-        allure_assert.my_assert(res, api)
-        return res[1]
-    except Exception:
-        allure_assert.request_error(api)
+    with requests.request(method, url=url, params=params, json=json, files=file, data=data) as response:
+        if response.status_code == 200:
+            res = check.check_rc(response)
+            allure_assert.my_assert(res, api)
+            return res[1]
+        else:
+            allure_assert.request_error(response.status_code, api)
 
 
 class MyRequest(object):
@@ -76,3 +77,13 @@ class MyRequest(object):
 
         def post(self, api):
             return client(method='post', url=api.get('url'), file=api.get('data'), api=api)
+
+    class Data(object):
+        def get(self, api):
+            return client(method='get', url=api.get('url'), data=api.get('data'), api=api)
+
+        def put(self, api):
+            return client(method='put', url=api.get('url'), data=api.get('data'), api=api)
+
+        def post(self, api):
+            return client(method='post', url=api.get('url'), data=api.get('data'), api=api)
