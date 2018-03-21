@@ -44,6 +44,9 @@ class MyRequest(object):
         def post(self, api):
             return client(method='post', url=api.get('url'), api=api)
 
+        def dele(self, api):
+            return client(method='delete', url=api.get('url'), api=api)
+
     class Params(object):
         """query类型参数入口"""
 

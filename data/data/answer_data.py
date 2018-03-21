@@ -16,18 +16,15 @@ class AnswerData(object):
     data = {
         keys.publish: {
             "url": eve.server + "/post/publish",
-            "data": {
-                "authorId": eve.user_id,
-                "subject": "测试测试测试测试?",
-                "bodyText": "测试测试测试测试测试测试测试测试测试测试测试测试",
-                "postType": "QA",
-                "imgs": open(r"{}\imgs\test.png".format(static_path), "rb"),
-                "coins": "20",
-                "charge": "false",
-                "isAnonymous": "false",
-            },
-            "header": {}
+            "data": [
+                ('authorId', (None, eve.user_id)),
+                ('subject', (None, '测试测试测试测试?')),
+                ('bodyText', (None, '测试测试测试测试测试测试测试测试测试测试测试测试')),
+                ('postType', (None, 'QA')),
+                ('coins', (None, '20')),
+            ]
         },
+        keys.detail: {"url": eve.server + "/post/{}"},
         keys.ads: {
             "url": eve.server + "/management/ad/group?labels=report"
         }, keys.top_activity_users: {
@@ -44,6 +41,19 @@ class AnswerData(object):
         }, keys.top_navigation: {
             "url": eve.server + "/tpoint/qa/top_navigation",
         },
+        keys.is_like: {"url": eve.server + "/post/{}/is_liked_by/" + eve.user_id_two, },
+        keys.new_reply_list: {"url": eve.server + "/qa/{}/new_reply_list"},
+        keys.adopt_answer: {"url": eve.server + "/post/qa/adopt_answer?postId={}&userId=" + eve.user_id + "&coins=5"},
+        keys.recommend: {"url": eve.server + "/qa/reply/{}/recommend/" + eve.user_id},
+        keys.delete_replay: {"url": eve.server + "/qa/reply/{}/recommend/" + eve.user_id},
+        keys.chat: {
+            "url": eve.server + "post/getChat?postId={}&userOneId=" + eve.user_id + "&userTwoId=" + eve.user_id_two + "&begin=0&length=5"},
+        keys.reply: {"url": eve.server + "/reply",
+                     "data": [
+                         ("bodyText", (None, "测试测试测试")),
+                         ("authorId", (None, eve.user_id_two)),
+                     ]},
+
     }
 
 
