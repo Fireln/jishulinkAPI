@@ -56,7 +56,7 @@ class TestAnswer(object):
 
 @allure.feature("问答")
 @allure.story("进入问答详情")
-@allure.severity("blocker")
+@allure.severity("trivial")
 class TestPost(object):
 
     @allure.testcase("发布问答")
@@ -88,14 +88,16 @@ class TestReplay(object):
     @allure.testcase("评论/回复")
     def test_replay(self):
         self.replay()
+        self.replay_list()
         self.recommend()
         self.replay_next()
         self.chat()
-        self.replay_list()
         self.adopt_answer()
+        self.delete_replay()
 
     @allure.step("进行评论")
     def replay(self):
+        global reply_id
         api = answer_data.get(keys.reply)
         replyTo = ("replyTo", (None, answer_id))
         api["data"].append(replyTo)
@@ -120,11 +122,11 @@ class TestReplay(object):
     def replay_list(self):
         global reply_id
         api = answer_data.get(keys.new_reply_list)
-        api["data"] = api["data"].format(answer_id)
+        api["url"] = api["url"].format(answer_id)
         res = url.get(api)
         if res:
-            reply_id = res.get("ret")[0].get("replyId")
-            self.delete_replay(res.get("ret")[1].get("replyId"))
+            reply_list = res.get("ret").get("results")
+            reply_id = reply_list[0].get("replyId")
 
     @allure.step("推荐")
     def recommend(self):
@@ -140,24 +142,12 @@ class TestReplay(object):
             api["url"] = api["url"].format(reply_id)
             url.post(api)
 
-    @allure.step("删除评论")
-    def delete_replay(self, id):
+    @allure.step("删除问答")
+    def delete_replay(self):
         if reply_id:
             api = answer_data.get(keys.delete_replay)
-            api["url"] = api["url"].format(id)
+            api["url"] = api["url"].format(answer_id)
             url.dele(api)
-
-    @allure.testcase("关注/收藏")
-    def test_followed(self):
-        pass
-
-    @allure.testcase("搜索")
-    def test_search_self(self):
-        pass
-
-    @allure.testcase("草稿")
-    def test_draft(self):
-        pass
 
 
 if __name__ == '__main__':

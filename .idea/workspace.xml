@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8eafd42-384b-42d3-994b-022c87807666" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/testscripts/post/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testscripts/post/post_coin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tools/business_chat.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tools/conn.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change beforePath="$PROJECT_DIR$/data/data/__init__.py" afterPath="$PROJECT_DIR$/data/data/__init__.py" />
       <change beforePath="$PROJECT_DIR$/data/data/answer_data.py" afterPath="$PROJECT_DIR$/data/data/answer_data.py" />
-      <change beforePath="$PROJECT_DIR$/data/keys/answer_key.py" afterPath="$PROJECT_DIR$/data/keys/answer_key.py" />
-      <change beforePath="$PROJECT_DIR$/testscripts/answer.py" afterPath="$PROJECT_DIR$/testscripts/answer.py" />
-      <change beforePath="$PROJECT_DIR$/tools/my_request.py" afterPath="$PROJECT_DIR$/tools/my_request.py" />
+      <change beforePath="$PROJECT_DIR$/testscripts/.pytest_cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/testscripts/.pytest_cache/v/cache/lastfailed" />
+      <change beforePath="$PROJECT_DIR$/testscripts/answer.py" afterPath="$PROJECT_DIR$/testscripts/test_answer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +28,7 @@
     <SUITE FILE_PATH="coverage/jishulinktest$vip_data.coverage" NAME="vip_data Coverage Results" MODIFIED="1520489766227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data" />
     <SUITE FILE_PATH="coverage/jishulinktest$test_home.coverage" NAME="test_home Coverage Results" MODIFIED="1520834043704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testscripts" />
     <SUITE FILE_PATH="coverage/jishulinktest$user_data.coverage" NAME="user_data Coverage Results" MODIFIED="1520491837646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data" />
-    <SUITE FILE_PATH="coverage/jishulinktest$answer.coverage" NAME="answer Coverage Results" MODIFIED="1521532696418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testscripts" />
+    <SUITE FILE_PATH="coverage/jishulinktest$answer.coverage" NAME="answer Coverage Results" MODIFIED="1521698075575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testscripts" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -63,104 +59,96 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42057568">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="answer.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/testscripts/answer.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#80#130#0" expanded="true" />
-                    <element signature="e#445#1409#0" expanded="false" />
-                    <element signature="e#1515#2078#0" expanded="false" />
-                    <element signature="e#1800#1905#0" expanded="false" />
-                    <element signature="e#2183#4214#0" expanded="false" />
-                    <element signature="e#2244#2384#0" expanded="false" />
-                    <element signature="e#2441#2589#0" expanded="false" />
-                    <element signature="e#2651#2835#0" expanded="false" />
-                    <element signature="e#2890#3047#0" expanded="false" />
-                    <element signature="e#3449#3589#0" expanded="false" />
-                    <element signature="e#3650#3794#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="my_request.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tools/my_request.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="293">
-                  <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-            <entry file="file://C:/Python34/Lib/site-packages/requests/api.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="226">
-                  <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sessions.py" pinned="false" current-in-tab="false">
-            <entry file="file://C:/Python34/Lib/site-packages/requests/sessions.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="376">
-                  <caret line="488" column="32" lean-forward="true" selection-start-line="488" selection-start-column="32" selection-end-line="488" selection-end-column="32" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://C:/Python34/Lib/site-packages/requests/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="25">
-                  <caret line="217" column="8" lean-forward="false" selection-start-line="217" selection-start-column="8" selection-end-line="217" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="answer_data.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/data/data/answer_data.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
-                  <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#80#112#0" expanded="true" />
-                    <element signature="e#342#690#0" expanded="false" />
-                    <element signature="e#765#845#0" expanded="false" />
-                    <element signature="e#872#942#0" expanded="false" />
-                    <element signature="e#1041#1107#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="answer_key.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/keys/answer_key.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="answer_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/data/answer_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-419">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="e#80#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/data/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_answer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testscripts/test_answer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#80#130#0" expanded="true" />
+                <element signature="e#445#1409#0" expanded="false" />
+                <element signature="e#1515#2078#0" expanded="false" />
+                <element signature="e#1800#1905#0" expanded="false" />
+                <element signature="e#2183#4041#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expert_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/data/expert_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_request.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/my_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python34/Lib/site-packages/requests/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python34/Lib/site-packages/requests/sessions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11500">
+              <caret line="488" column="32" lean-forward="false" selection-start-line="488" selection-start-column="32" selection-end-line="488" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -228,12 +216,10 @@
         <option value="$PROJECT_DIR$/data/keys/cooperation_keys.py" />
         <option value="$PROJECT_DIR$/data/data/cooperation_data.py" />
         <option value="$PROJECT_DIR$/data/data/answer.py" />
-        <option value="$PROJECT_DIR$/data/data/__init__.py" />
         <option value="$PROJECT_DIR$/data/data/home_data.py" />
         <option value="$PROJECT_DIR$/data/a.html" />
         <option value="$PROJECT_DIR$/data/yield_test.py" />
         <option value="$PROJECT_DIR$/testscripts/post/post_coin.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/tools/allure_assert.py" />
         <option value="$PROJECT_DIR$/tools/conn.py" />
         <option value="$PROJECT_DIR$/tools/business_chat.py" />
@@ -241,7 +227,10 @@
         <option value="$PROJECT_DIR$/data/keys/answer_key.py" />
         <option value="$PROJECT_DIR$/tools/my_request.py" />
         <option value="$PROJECT_DIR$/testscripts/answer.py" />
+        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/data/data/answer_data.py" />
+        <option value="$PROJECT_DIR$/data/data/__init__.py" />
+        <option value="$PROJECT_DIR$/testscripts/test_answer.py" />
       </list>
     </option>
   </component>
@@ -292,7 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,12 +313,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jishulink-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
@@ -361,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.business_chat">
+  <component name="RunManager" selected="Python.answer">
     <configuration name="answer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,7 +364,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="jishulinktest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testscripts/answer.py" />
+      <option name="SCRIPT_NAME" value="D:\pycharm\jishulinktest\testscripts\test_answer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -550,8 +539,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.business_chat" />
-        <item index="1" class="java.lang.String" itemvalue="Python.answer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.answer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.business_chat" />
         <item index="2" class="java.lang.String" itemvalue="Python.post_coin" />
         <item index="3" class="java.lang.String" itemvalue="Python.yield_test" />
         <item index="4" class="java.lang.String" itemvalue="Python.answer_data" />
@@ -656,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521206008270</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="问答模块差一点完成">
+      <created>1521626245652</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521626245652</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -678,12 +674,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46162528" sideWeight="0.50426894" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22905028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21899441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21117319" sideWeight="0.4967983" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25139666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14552239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27262568" sideWeight="0.4967983" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29497206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14658849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -693,6 +688,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -735,23 +731,16 @@
     <MESSAGE value="下班按时提交" />
     <MESSAGE value="完成首页" />
     <MESSAGE value="准备做课程" />
-    <option name="LAST_COMMIT_MESSAGE" value="准备做课程" />
+    <MESSAGE value="问答模块差一点完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="问答模块差一点完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="40" />
+      <option name="time" value="51" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testscripts/report/html/index.html" />
-    <entry file="file://$PROJECT_DIR$/testscripts/test_expert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/keys/home_keys.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -795,24 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="312" column="8" lean-forward="false" selection-start-line="312" selection-start-column="8" selection-end-line="312" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/somefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1625">
           <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscripts/test_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -834,13 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testscripts/test_home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -939,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,25 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/allure/pytest_plugin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="323" column="35" lean-forward="true" selection-start-line="323" selection-start-column="35" selection-end-line="323" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,17 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#79#104#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,9 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="12" />
-          <folding>
-            <marker date="1515121828712" expanded="true" signature="2010:2084" ph="SELECT user_... tbl_vw_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,20 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="e#347#472#0" expanded="false" />
-            <element signature="e#525#662#0" expanded="false" />
-            <element signature="e#693#765#0" expanded="false" />
-            <element signature="e#918#1012#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/data/expert_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,10 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-          <folding>
-            <element signature="e#80#105#0" expanded="true" />
-            <element signature="e#214#805#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,14 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/allure_assert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1079,74 +985,137 @@
     </entry>
     <entry file="file://C:/Python34/Lib/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="4600">
           <caret line="217" column="8" lean-forward="false" selection-start-line="217" selection-start-column="8" selection-end-line="217" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python34/Lib/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="488" column="32" lean-forward="true" selection-start-line="488" selection-start-column="32" selection-end-line="488" selection-end-column="32" />
+        <state relative-caret-position="11500">
+          <caret line="488" column="32" lean-forward="false" selection-start-line="488" selection-start-column="32" selection-end-line="488" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python34/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="375">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/my_request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="650">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/allure/pytest_plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/allure/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/allure_assert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/keys/answer_key.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscripts/test_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscripts/test_home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscripts/test_expert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="152" column="26" lean-forward="true" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="312" column="8" lean-forward="false" selection-start-line="312" selection-start-column="8" selection-end-line="312" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data/expert_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/data/answer_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="-419">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
             <element signature="e#80#112#0" expanded="true" />
-            <element signature="e#342#690#0" expanded="false" />
-            <element signature="e#765#845#0" expanded="false" />
-            <element signature="e#872#942#0" expanded="false" />
-            <element signature="e#1041#1107#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testscripts/answer.py">
+    <entry file="file://$PROJECT_DIR$/data/data/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testscripts/test_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#80#130#0" expanded="true" />
             <element signature="e#445#1409#0" expanded="false" />
             <element signature="e#1515#2078#0" expanded="false" />
             <element signature="e#1800#1905#0" expanded="false" />
-            <element signature="e#2183#4214#0" expanded="false" />
-            <element signature="e#2244#2384#0" expanded="false" />
-            <element signature="e#2441#2589#0" expanded="false" />
-            <element signature="e#2651#2835#0" expanded="false" />
-            <element signature="e#2890#3047#0" expanded="false" />
-            <element signature="e#3449#3589#0" expanded="false" />
-            <element signature="e#3650#3794#0" expanded="false" />
+            <element signature="e#2183#4041#0" expanded="false" />
           </folding>
         </state>
       </provider>

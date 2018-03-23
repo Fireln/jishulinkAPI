@@ -18,8 +18,8 @@ class AnswerData(object):
             "url": eve.server + "/post/publish",
             "data": [
                 ('authorId', (None, eve.user_id)),
-                ('subject', (None, '测试测试测试测试?')),
-                ('bodyText', (None, '测试测试测试测试测试测试测试测试测试测试测试测试')),
+                ('subject', (None, 'CAD可以3D打印吗?')),
+                ('bodyText', (None, 'CAD可以3D打印吗')),
                 ('postType', (None, 'QA')),
                 ('coins', (None, '20')),
             ]
@@ -45,15 +45,15 @@ class AnswerData(object):
         keys.new_reply_list: {"url": eve.server + "/qa/{}/new_reply_list"},
         keys.adopt_answer: {"url": eve.server + "/post/qa/adopt_answer?postId={}&userId=" + eve.user_id + "&coins=5"},
         keys.recommend: {"url": eve.server + "/qa/reply/{}/recommend/" + eve.user_id},
-        keys.delete_replay: {"url": eve.server + "/qa/reply/{}/recommend/" + eve.user_id},
+        keys.delete_replay: {
+            "url": eve.server + "/post/c75871d9-8218-4102-b594-ab27334c2a42?operatorId=" + eve.user_id},
         keys.chat: {
-            "url": eve.server + "post/getChat?postId={}&userOneId=" + eve.user_id + "&userTwoId=" + eve.user_id_two + "&begin=0&length=5"},
+            "url": eve.server + "/post/getChat?postId={}&userOneId=" + eve.user_id + "&userTwoId=" + eve.user_id_two + "&begin=0&length=5"},
         keys.reply: {"url": eve.server + "/reply",
                      "data": [
-                         ("bodyText", (None, "测试测试测试")),
+                         ("bodyText", (None, "可以的")),
                          ("authorId", (None, eve.user_id_two)),
                      ]},
-
     }
 
 

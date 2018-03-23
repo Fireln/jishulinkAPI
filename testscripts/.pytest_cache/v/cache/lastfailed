@@ -1,4 +1,6 @@
 {
+  "answer.py::TestReplay::()::test_replay": true,
+  "test_answer.py::TestReplay::()::test_replay": true,
   "test_expert.py::TestExpert::()::TestExpertGuid::()::test_modify_label": true,
   "test_user.py::TestUserVip::()::test_three_mon_vip": true
 }
