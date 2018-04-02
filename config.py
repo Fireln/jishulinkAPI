@@ -12,6 +12,13 @@ class Dev(Main):
     lotteryId = "0329aba0-ce77-4233-85b2-f16c5e564e05"
     post_id = "aeace18f-d26f-4ff8-af7a-8f48d6dc3146"
     app_version = "4.2.0"
+    mysql = {
+        "host": "120.55.131.33",
+        "user": "jishulink_test",
+        "pwd": "jishulink1194",
+        "base": "jishulink-view-test"
+
+    }
 
 
 class Release(Main):

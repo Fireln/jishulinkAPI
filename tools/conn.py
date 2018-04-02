@@ -1,27 +1,26 @@
 import pymysql
 import random
-from setting import MySql
-import exceptions
+from config import Dev
 
 
 class ConnMysql():
 
     def __init__(self):
+        sql_info = Dev().mysql
         # self.host = host
-        self.host = MySql.host
-        self.port = MySql.port
-        self.user = MySql.user
-        self.passwd = MySql.passwd
-        self.base = MySql.base
+        self.host = sql_info.get("host")
+        self.user = sql_info.get("user")
+        self.passwd = sql_info.get("pwd")
+        self.base = sql_info.get("base")
 
     def createconn(self):
         try:
-            conn = pymysql.connect(host=self.host, port=self.port, user=self.user, passwd=self.passwd,
-                                   database=self.base)
+            conn = pymysql.connect(host=self.host, port=3306, user=self.user, passwd=self.passwd,
+                                   database=self.base, charset='utf8')
             cur = conn.cursor(cursor=pymysql.cursors.DictCursor)
             return cur, conn
-        except exceptions.OdbcError as e:
-            raise exceptions.OdbcError("connect sql error")
+        except Exception as e:
+            raise e
 
     def do_select(self, query):
         try:
@@ -42,7 +41,7 @@ class ConnMysql():
         except Exception as e:
             print('查询命令错误', e)
 
-    def do_insert(self, query, database):
+    def do_insert(self, query):
         try:
             cur, conn = self.createconn()
             cur.execute(query)
@@ -50,7 +49,7 @@ class ConnMysql():
         except Exception as e:
             print('查询命令错误', e)
 
-    def do_delete(self, query, database):
+    def do_delete(self, query):
         try:
             cur, conn = self.createconn()
             cur.execute(query)
@@ -73,5 +72,6 @@ class ConnMysql():
 
 if __name__ == '__main__':
     con = ConnMysql()
-    query = r"SELECT user_id FROM  tbl_vw_user WHERE telephone LIKE  '170%' LIMIT 0, 200"
-    print(con.do_select(query))
+    query = r"DELETE FROM tbl_vw_certification_third_record WHERE realname = '周依依'"
+    query1 = r"SELECT * FROM tbl_vw_certification_third_record WHERE realname = '周依依'"
+    print(con.do_delete(query))

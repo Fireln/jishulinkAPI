@@ -26,7 +26,7 @@ def client(method, url=None, params=None, json=None, file=None, api=None, data=N
             allure_assert.my_assert(res, api)
             return res[1]
         else:
-            allure_assert.request_error(response.status_code, api)
+            allure_assert.request_error(response.text, api)
 
 
 class MyRequest(object):

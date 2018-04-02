@@ -21,4 +21,4 @@ class AllureAssert(object):
 
     def request_error(self, status, api):
         allure.attach("参数", "{0}".format(api))
-        assert False, "接口调用失败，http状态码为{}".format(status)
+        assert False, "接口调用失败，错误为：{}".format(status)
