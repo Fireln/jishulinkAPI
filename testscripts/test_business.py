@@ -3,10 +3,12 @@
 # Created by Fireln on 2018/3/29
 import allure
 from testscripts.api import cert, pay_answer
+from data.data import eve
 
 cert_real_name_res = None
-user_id = "f72687ae-9a0e-41f3-8814-b6586b7adb45"
-pay_answer_id = None
+user_id = eve.user_id
+test_user_id = None
+pay_answer_id = eve.business.get("pay_answer_id")
 
 
 @allure.feature("认证")
@@ -15,8 +17,8 @@ class TestRealName(object):
     @allure.story("实名认证")
     def test_real_name(self):
         global cert_real_name_res
-        global user_id
-        user_id = cert.regiest()
+        global test_user_id
+        test_user_id = cert.regiest()
         cert_real_name_res = cert.cert_real_name()
 
     @allure.story("职场认证")
@@ -37,10 +39,8 @@ class TestRealName(object):
 class TestPayAnswer(object):
     @allure.testcase("申请开通付费答疑")
     def test_publish(self):
-        global pay_answer_id
         if user_id:
-            # pay_answer_id = pay_answer.publish(user_id)
-            pay_answer_id = "pa10199"
+            pay_answer.publish(test_user_id)
 
     @allure.testcase("审核通过付费答疑")
     def test_approve_true(self):
@@ -53,18 +53,12 @@ class TestPayAnswer(object):
             pay_answer.detail_user_id(user_id)
             pay_answer.detail_pid(pay_answer_id)
 
-    @allure.testcase("修改付费答疑")
-    def test_change(self):
-        if pay_answer_id:
-            pay_answer.close(pay_answer_id)
-            pay_answer.open(pay_answer_id)
-            pay_answer.modify(pay_answer_id)
-
     @allure.testcase("购买答疑流程")
     def test_buy(self):
         if pay_answer_id:
             pay_answer_order_id = pay_answer.place(pay_answer_id)
             if pay_answer_order_id:
+                pay_answer.open(pay_answer_id)
                 pay_answer.payment(pay_answer_order_id)
                 pay_answer.accept(pay_answer_order_id)
                 pay_answer.complete(pay_answer_order_id)
@@ -100,6 +94,12 @@ class TestPayAnswer(object):
                 pay_answer.payment(pay_answer_order_id)
                 pay_answer.complete(pay_answer_order_id)
                 pay_answer.complain(pay_answer_order_id)
+                pay_answer.close(pay_answer_id)
+
+    @allure.testcase("修改付费答疑")
+    def test_change(self):
+        if pay_answer_id:
+            pay_answer.modify(pay_answer_id)
 
 
 if __name__ == '__main__':
