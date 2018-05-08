@@ -36,8 +36,7 @@ class PayAnswer(object):
     def approve(self, pay_answer_id):
         api = pay_answer_data.data.get(pay_answer_keys.change_audit_status)
         api["url"] = api["url"].format(pay_answer_id=pay_answer_id)
-        if url.get(api):
-            return True
+        return url.get(api)
 
     @allure.step("修改付费答疑")
     def modify(self, pay_answer_id):
@@ -61,7 +60,7 @@ class PayAnswer(object):
     def detail_pid(self, pay_answer_id):
         api = pay_answer_data.data.get(pay_answer_keys.detail_pid)
         api["url"] = api["url"].format(pay_answer_id=pay_answer_id)
-        url.get(api)
+        return url.get(api).get("ret").get("finalPrice")
 
     @allure.step("根据userID获取付费答疑详情")
     def detail_user_id(self, user_id):
@@ -74,7 +73,7 @@ class PayAnswer(object):
         api = pay_answer_data.data.get(pay_answer_keys.place)
         api["data"] = [
             ("payAnswerId", (None, pay_answer_id)),
-            ("customerId", (None, eve.user_id)),
+            ("customerId", (None, eve.user_id_two)),
             ("content", (None, "test")),
             ("telephone", (None, "13783783183")),
         ]
@@ -83,9 +82,10 @@ class PayAnswer(object):
             return res.get("ret")
 
     @allure.step("支付订单")
-    def payment(self, order_id):
+    def payment(self, order_id, price):
         api = pay_answer_data.data.get(pay_answer_keys.payment)
         api["data"]["orderId"] = order_id
+        api["data"]["balanceAmount"] = price
         json.post(api)
 
     @allure.step("用户取消订单")
@@ -116,7 +116,7 @@ class PayAnswer(object):
     def order_info(self, order_id):
         api = pay_answer_data.data.get(pay_answer_keys.order_info)
         api["url"] = api.get("url").format(order_id=order_id)
-        url.get(api)
+        return url.get(api).get("ret").get("finalPrice")
 
     @allure.step("购买的答疑列表")
     def list_customer(self):
@@ -158,9 +158,9 @@ class PayAnswer(object):
     def complain(self, order_id):
         api = pay_answer_data.data.get(pay_answer_keys.complain)
         api["url"] = api.get("url").format(order_id=order_id)
-        url.get(api)
+        file.post(api)
 
 
 if __name__ == '__main__':
     t = PayAnswer()
-    t.payment("pao10681")
+    print(t.complete("pao10735"))

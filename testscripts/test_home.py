@@ -59,10 +59,10 @@ class TestHome(object):
         api = home_data.get(home_keys.lottery)
         url.get(api=api)
 
-    @allure.testcase("app_version")
-    def test_app_version(self):
-        api = home_data.get(home_keys.app_version)
-        url.get(api=api)
+    # @allure.testcase("app_version")
+    # def test_app_version(self):
+    #     api = home_data.get(home_keys.app_version)
+    #     url.get(api=api)
 
 
 if __name__ == '__main__':

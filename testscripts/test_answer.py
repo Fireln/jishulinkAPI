@@ -8,13 +8,13 @@ from tools import url, params, file
 from data.data import eve
 
 answer_data = AnswerData.data
-answer_id = eve.post_id
+answer_id = None
 reply_id = None
 
 
 @allure.feature("问答")
 @allure.story("进入问答频道")
-@allure.severity("critical")  # 优先级，包含blocker, critical, normal, minor, trivial 几个不同的等级
+@allure.severity("normal")  # 优先级，包含blocker, critical, normal, minor, trivial 几个不同的等级
 class TestAnswer(object):
 
     @allure.testcase("问答广告")
@@ -56,7 +56,7 @@ class TestAnswer(object):
 
 @allure.feature("问答")
 @allure.story("进入问答详情")
-@allure.severity("trivial")
+@allure.severity("normal")
 class TestPost(object):
 
     @allure.testcase("发布问答")
@@ -82,7 +82,7 @@ class TestPost(object):
 
 @allure.feature("问答")
 @allure.story("回复")
-@allure.severity("critical")
+@allure.severity("minor")
 class TestReplay(object):
 
     @allure.testcase("评论/回复")
@@ -146,7 +146,7 @@ class TestReplay(object):
     def delete_replay(self):
         if reply_id:
             api = answer_data.get(keys.delete_replay)
-            api["url"] = api["url"].format(answer_id)
+            api["url"] = api["url"].format(answer_id=answer_id)
             url.dele(api)
 
 

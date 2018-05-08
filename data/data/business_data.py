@@ -68,22 +68,16 @@ class PayAnswer(object):
             "url": eve.server + "/payanswer/{pay_answer_id}/votes?begin=0&length=10",
         },
         pay_answer_keys.complain: {
-            "url": eve.server + "/payanswer/{order_id}/complain",
+            "url": eve.server + "/payanswer_order/{order_id}/complain",
+            "data": [("text", (None, "申诉测试"))]
         },
         pay_answer_keys.payment: {
-            "url": eve.server + "/payanswer_order/payment",
+            "url": eve.server + "/payanswer_order/new_payment",
             "data": {
                 "orderId": "pao10681",
-                "tag": "PayAnswerOrder",
-                "balanceAmount": "100",
-                "payAmountUnit": "CNY",
-                "method": "ALIPAY",
-                "ticketIds": [],
-                "sceneType": 0,
-                "returnPath": "%2Fdayi%2Fpay%2Fpao10287%2Fsuccess",
-                "coins": 0,
+                "payerId": eve.user_id_two,
+                "balanceAmount": "1",
                 "smsCode": "bobo",
-                "description": ""
             }
         },
 

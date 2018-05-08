@@ -46,7 +46,7 @@ class AnswerData(object):
         keys.adopt_answer: {"url": eve.server + "/post/qa/adopt_answer?postId={}&userId=" + eve.user_id + "&coins=5"},
         keys.recommend: {"url": eve.server + "/qa/reply/{}/recommend/" + eve.user_id},
         keys.delete_replay: {
-            "url": eve.server + "/post/c75871d9-8218-4102-b594-ab27334c2a42?operatorId=" + eve.user_id},
+            "url": eve.server + "/post/{answer_id}?operatorId=" + eve.user_id},
         keys.chat: {
             "url": eve.server + "/post/getChat?postId={}&userOneId=" + eve.user_id + "&userTwoId=" + eve.user_id_two + "&begin=0&length=5"},
         keys.reply: {"url": eve.server + "/reply",

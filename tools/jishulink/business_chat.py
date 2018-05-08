@@ -25,6 +25,11 @@ class DeleteZ(object):
         res = self.conn.do_select(query)
         return res[0].get("cert_id")
 
+    def get_pay_answer_id(self):
+        query = "select id from tbl_vw_payanswer ORDER BY id DESC LIMIT 0,1"
+        res = self.conn.do_select(query)
+        return res[0].get("id")
+
 
 class Regiester(object):
 
@@ -98,6 +103,7 @@ class RenZheng(object):
         res.check(response, "职场审核")
 
 
+
 class Two(object):
 
     def __init__(self, user_id):
@@ -106,7 +112,10 @@ class Two(object):
     def add_balance(self):
         url = eve.server + r"/trade/addBalance/user/{}?money=1000".format(self.user_id)
         response = res.to_json(requests.put(url))
-        res.check(response, "添加余额")
+        if res.check(response, "添加余额"):
+            print("添加余额成功")
+        else:
+            print("添加余额失败")
 
     def create_pao(self, pay_answer_id):
         url = eve.server + r"/payanswer_order/place"
@@ -119,7 +128,10 @@ class Two(object):
         response = res.to_json(requests.post(url, files=files))
         if res.check(response, "生成答疑订单"):
             pao = response[1].get("ret")
+            print("生成答疑订单成功")
             self.payment(pao)
+        else:
+            print("生成答疑订单失败")
 
     def payment(self, pao):
         url = eve.server + r"/payanswer_order/new_payment"
@@ -137,10 +149,14 @@ class Two(object):
             "description": ""
         }
         response = res.to_json(requests.post(url, json=body))
-        res.check(response, "答疑付款")
+        if res.check(response, "答疑付款"):
+            print("付款成功")
+        else:
+            print("付款失败")
 
 
 if __name__ == '__main__':
+    sql = DeleteZ()
     tel1 = "171" + "".join(random.sample(string.digits, 8))
     tel2 = "171" + "".join(random.sample(string.digits, 8))
     r = Regiester()
@@ -150,12 +166,15 @@ if __name__ == '__main__':
     ren = RenZheng(user_id=user_id)
     ren.renzehng(tel1)
     ren.career()
-    # pay_answer_id = ren.open_pay_answer()
-    # if pay_answer_id:
-    #     if ren.change_audit_status(pay_answer_id):
-    #         for i in range(3):
-    #             pay = Two(pay_user_id)
-    #             pay.add_balance()
-    #             pay.create_pao(pay_answer_id)
-    # response = res.to_json(requests.put(url))
-    # res.check(response, "关注")
+    ren.open_pay_answer()
+    pay_answer_id = sql.get_pay_answer_id()
+    if pay_answer_id:
+        if ren.change_audit_status(pay_answer_id):
+            for i in range(3):
+                pay = Two(pay_user_id)
+                pay.add_balance()
+                pay.create_pao(pay_answer_id)
+    response = res.to_json(requests.put(url))
+    res.check(response, "关注")
+
+

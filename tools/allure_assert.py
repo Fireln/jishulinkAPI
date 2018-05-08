@@ -5,8 +5,12 @@ import allure
 
 
 class AllureAssert(object):
+    """
+    简单封装allure断言
+    """
 
     def my_assert(self, res, api):
+        """rc码检查，当前只判断rc==0时正确"""
         if res[0]:
             assert True
         else:
@@ -20,5 +24,10 @@ class AllureAssert(object):
                 assert False, "没有rc码返还，无法定位错误"
 
     def request_error(self, status, api):
+        """接口调用http状态码不为200时调用"""
         allure.attach("参数", "{0}".format(api))
         assert False, "接口调用失败，错误为：{}".format(status)
+
+    def error_message(self, error_message):
+        """测试套件执行前提未达成时调用"""
+        assert False, "测试用例执行失败，原因是：{}".format(error_message)

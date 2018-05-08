@@ -2,8 +2,17 @@
 # -*- coding: utf-8 -*-
 # Created by Fireln on 2018/3/1
 
+
 class Main(object):
     server = "http://t.jishulink.com:8002/jishulink"
+    ali_oss = {
+        "AK": "YWhaguvJBYpPCLjf",
+        "AKS": "FlY6qMvcRHxJN5uqobgMLJtry4bJvN",
+        "endpoint": "hangzhou",
+        "bucket": "qianzhui",
+        "bucketDomain": "oss.jishulink.com",
+        "imgDomain": "img.jishulink.com",
+    }
 
 
 class Dev(Main):
@@ -20,14 +29,11 @@ class Dev(Main):
 
     }
     business = {
-        "pay_answer_id": "pa10619",
-        "cooperation_id": "pa10619",
-        "live_id": "pa10619",
+        "pay_answer_id": "pa10020",
+        "cooperation_id": "pa10020",
+        "live_id": "pa10020",
     }
-    ali_oss = {
-        "AK": "",
-        "AkS": ""
-    }
+
     videos = ["5a5591cd421aa9644c788e71", "5a3b5414421aa934614af54d"]
     t_point_id = "98AA695F-4C63-4701-BDD1-0F8FC33030B6"
 
@@ -44,6 +50,8 @@ class Release(Main):
         "cooperation_id": "pa10619",
         "live_id": "pa10619",
     }
+    videos = ["5a5591cd421aa9644c788e71", "5a3b5414421aa934614af54d"]
+    t_point_id = "98AA695F-4C63-4701-BDD1-0F8FC33030B6"
 
 
 def get_eve(eve):
