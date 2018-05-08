@@ -1,7 +1,5 @@
 # Byte-compiled / optimized / DLL files
 .idea/
 requestest.py
-.idea/workspace.xml
 __pycache__/home.cpython-34.pyc
-data/__pycache__/
-odbc/__pycache__/
+__pycache__/
