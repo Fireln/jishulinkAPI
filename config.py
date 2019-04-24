@@ -6,11 +6,11 @@
 class Main(object):
     server = "http://t.jishulink.com:8002/jishulink"
     ali_oss = {
-        "AK": "YWhaguvJBYpPCLjf",
-        "AKS": "FlY6qMvcRHxJN5uqobgMLJtry4bJvN",
+        "AK": "",
+        "AKS": ",
         "endpoint": "hangzhou",
-        "bucket": "qianzhui",
-        "bucketDomain": "oss.jishulink.com",
+        "bucket": "",
+        "bucketDomain": "",
         "imgDomain": "img.jishulink.com",
     }
 
@@ -24,7 +24,7 @@ class Dev(Main):
     mysql = {
         "host": "120.55.131.33",
         "user": "jishulink_test",
-        "pwd": "jishulink1194",
+        "pwd": "",
         "base": "jishulink-view-test"
 
     }
